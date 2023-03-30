@@ -688,12 +688,6 @@
       </div>
 
       <div class="footer">
-<!--        <p class="author"-->
-<!--          >MADE BY-->
-<!--          <a href="http://github.com/qier222" target="_blank">QIER222</a></p-->
-<!--        >-->
-<!--        <p class="version">v{{ version }}</p>-->
-
         <a
           v-if="!isElectron"
           href="https://vercel.com/?utm_source=ohmusic&utm_campaign=oss"
