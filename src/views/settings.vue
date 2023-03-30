@@ -688,16 +688,8 @@
       </div>
 
       <div class="footer">
-        <a
-          v-if="!isElectron"
-          href="https://vercel.com/?utm_source=ohmusic&utm_campaign=oss"
-        >
-          <img
-            height="36"
-            src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
-          />
-        </a>
       </div>
+      
     </div>
   </div>
 </template>
