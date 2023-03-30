@@ -67,7 +67,7 @@
       </div>
       <hr />
       <div class="item" @click="toGitHub">
-        <svg-icon icon-class="github" />
+        <svg-icon icon-class="ChatGPT" />
         {{ $t('nav.github') }}
       </div>
     </ContextMenu>
@@ -158,7 +158,7 @@ export default {
       this.$router.push({ name: 'settings' });
     },
     toGitHub() {
-      window.open('https://github.com/Profond/YesPlayMusic');
+      window.open('https://fantastic-lamington-8a219c.netlify.app/');
     },
     toLogin() {
       if (process.env.IS_ELECTRON === true) {
